@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <title>City Beauty</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+   
+</head>
+<body>
+    <header style="text-align: center;"><img src="/imgs/logo.png" style="  width: 85px;
+        height: 36px; position: relative; top: 30px;"/></header>
+    <section class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev" style="visibility: hidden;">
+          &#8249;
+        </button>
+        <button class="slide-arrow" id="slide-arrow-next" style="visibility: hidden;">
+          &#8250;
+        </button>
+        <ul class="slides-container" id="slides-container">
+          <li class="slide">
+            <p class="achieve-perfectly-sm">Achieve
+                Perfectly <i>Smooth,
+                    Youthful</i> Skin
+            </p><br/>
+            <p class="get-a-personalized-s">Get a personalized skin care treatment </p>
+            <p class="choose-your-goal">Choose your goal</p>
+            <div class="card-parent">
+            <card class="first-card">
+               <p class="remove-crepey-skin">Remove Crepey Skin</p>
+            </card>
+            <card class="second-card">
+                <p class="relieve-dry-flaky-s">Relieve Dry, Flaky Skin</p>
+            </card>
+            <card class="third-card">
+                <p class="get-firmer-tighter">Get Firmer, 
+                    Tighter, Younger 
+                    Looking Skin</p>
+            </card>
+        </div>
+          </li>
+          <li class="slide">
+            <div class="card-parent-2">
+                <button class="slide-arrow" id="slide-arrow-prev">
+                    &#8249;
+                  </button>
+            <div class="rectangles">
+            <div class="rectangle-copy-9"></div>
+            <div class="rectangle-copy-8"></div>
+            <p class="one-six">1/6</p>
+             </div>
+            <p class="select-problem-areas-copy">Select Problem Areas</p>
+                <div class="select-problem-areas-cards">
+                <card class="pg1-first-card">
+                    <input class="group-4" type="checkbox" onclick="validate()" id="skin"/>
+                    <p class="loose-skin-on-thighs">Loose skin
+                        on thighs 
+                        and legs</p>
+                </card>
+                <card class="pg1-second-card"><input class="group-4" type="checkbox" onclick="validate2()" id="arms"/> <p class="loose-skin-on-thighs">Thinning skin 
+                    on arms</p></card>
+                <card class="pg1-third-card"><input class="group-4" type="checkbox" onclick="validate3()" id="neck"/><p class="loose-skin-on-thighs">Loose neck/jaw
+
+                </p></card>
+                <card class="pg1-fourth-card"><input class="group-4" type="checkbox" onclick="validate4()" id="saggy"/><p class="loose-skin-on-thighs">Saggy 
+                    belly
+                    
+                    </p></card>
+                <card class="continue"><p class="cont-text">Continue</p></card>
+                <card class="skip-box" class="skip-box"><p class="skip-text">Skip</card>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card-parent-2">
+                <card class="first-card">
+                </card>
+                <card class="second-card">
+                </card>
+                <card class="third-card">
+                </card>
+                
+            </div>
+          </li>
+          <li class="slide"></li>
+        </ul>
+      </section>
+</body>
+</html>
